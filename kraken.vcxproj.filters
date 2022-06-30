@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{20e2232f-e8bf-450d-838c-feef0d9993d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\kraken">
+      <UniqueIdentifier>{1249204d-7774-4bbc-927a-ed5b55a10670}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="kraken.h">
+      <Filter>src\kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="recorded_clicks.h">
+      <Filter>src\kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="clicker.h">
+      <Filter>src\kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>src\kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="kraken.cpp">
+      <Filter>src\kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="clicker.cpp">
+      <Filter>src\kraken</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
